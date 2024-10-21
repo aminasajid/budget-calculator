@@ -33,7 +33,7 @@ function loginUser() {
     if (user && user.password === password) {
         // Store logged-in user details in session storage
         sessionStorage.setItem('currentUser', JSON.stringify(user));
-        window.location.href = './dashboard.html'; // Redirect to user dashboard
+        window.location.href = './home.html'; // Redirect to user dashboard
     } else {
         alert("Invalid username or password.");
     }
