@@ -1,0 +1,46 @@
+*{
+    font-family: "Montserrat", sans-serif;
+}
+.welcome-container{
+    background-color:#eff3f4 ;
+}
+
+.custom-width {
+    background-color: transparent; /* Makes the background of the input transparent */
+
+    color: #000;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #679a94;
+}
+
+h2{
+    color: #487973 ;
+    font-weight: bold;
+}
+label{
+    color: rgb(72, 121, 115) ;
+}
+.logout{
+    border: 10%;
+    border: 2px solid red;
+}
+.navbar-brand{
+    color: #487973 ;  
+    font-weight: 500;
+}
+.line{
+
+    border-bottom: 1px solid #487973;
+}
+.addbtn{
+    background-color: #487973 ; 
+    border: none;
+}
+.addbtn:hover{
+    background-color: #487973dd ; 
+}
+.section-1{
+    background-color:#eff3f4 ;
+
+}
